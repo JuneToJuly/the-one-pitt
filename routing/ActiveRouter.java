@@ -23,7 +23,7 @@ import core.Tuple;
  * {@link #getOldestMessage(boolean)}) and watching of sending connections (see
  * {@link #update()}).
  */
-public abstract class ActiveRouter extends MessageRouter {
+public abstract class ActiveRouter extends MessageBroadcastRouter {
 	/** Delete delivered messages -setting id ({@value}). Boolean valued.
 	 * If set to true and final recipient of a message rejects it because it
 	 * already has it, the message is deleted from buffer. Default=false. */
