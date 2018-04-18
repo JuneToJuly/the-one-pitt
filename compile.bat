@@ -2,7 +2,14 @@ javac -extdirs lib/ core/*.java
 javac -extdirs lib/ movement/*.java
 javac -extdirs lib/ report/*.java
 javac -extdirs lib/ routing/*.java
+javac -extdirs lib/ routing/community/*.java
+javac -extdirs lib/ routing/pubsub/*.java
+javac -extdirs lib/ routing/contentpubsub/*.java
+javac -extdirs lib/ routing/decisionengine/*.java
+javac -extdirs lib/ routing/maxprop/*.java
+javac -extdirs lib/ routing/schedule/*.java
 javac -extdirs lib/ gui/*.java
+javac -extdirs lib/ gui/playfield/*.java
 javac -extdirs lib/ input/*.java
 javac -extdirs lib/ applications/*.java
 javac -extdirs lib/ interfaces/*.java

@@ -27,6 +27,11 @@ import core.Tuple;
  * Superclass for message routers.
  */
 public abstract class MessageRouter {
+
+
+	public void connectionUp(Connection con){}
+	public void connectionDown(Connection con){}
+
 	/** Message buffer size -setting id ({@value}). Integer value in bytes.*/
 	public static final String B_SIZE_S = "bufferSize";
 	/**
@@ -167,7 +172,7 @@ public abstract class MessageRouter {
 	 * Informs the router about change in connections state.
 	 * @param con The connection that changed
 	 */
-	//public abstract void changedConnection(Connection con);	
+//	public abstract void changedConnection(Connection con);
 	
 	/**
 	 * Returns a message by ID.

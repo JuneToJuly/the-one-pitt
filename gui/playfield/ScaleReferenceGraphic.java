@@ -25,7 +25,12 @@ public class ScaleReferenceGraphic extends PlayFieldGraphic {
 	private final int FONT_SIZE = 10;
 	/** color of the bar */
 	private final Color REF_COLOR = Color.BLACK;
-	
+
+	public ScaleReferenceGraphic()
+	{
+
+	}
+
 	@Override
 	public void draw(Graphics2D g2) {
 		int endX = X_POS + scale(LENGTH);

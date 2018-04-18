@@ -30,7 +30,7 @@ public class EpidemicRouter extends ActiveRouter {
 		super(r);
 		//TODO: copy epidemic settings here (if any)
 	}
-			
+
 	@Override
 	public void update() {
 		super.update();
