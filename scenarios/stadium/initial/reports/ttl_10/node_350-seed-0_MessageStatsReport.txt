@@ -1,0 +1,20 @@
+Message stats for scenario node_350-seed-0
+sim_time: 3600.1000
+created: 1
+started: 6
+relayed: 6
+aborted: 0
+dropped: 7
+removed: 0
+delivered: 6
+delivery_prob: 6.0000
+response_prob: 0.0000
+overhead_ratio: 0.0000
+latency_avg: 7.0333
+latency_med: 8.4000
+hopcount_avg: 1.3333
+hopcount_med: 1
+buffertime_avg: 580.2714
+buffertime_med: 580.6000
+rtt_avg: NaN
+rtt_med: NaN
