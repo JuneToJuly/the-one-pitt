@@ -1,0 +1,20 @@
+Message stats for scenario node_50-seed-393
+sim_time: 3600.1000
+created: 1
+started: 7
+relayed: 4
+aborted: 3
+dropped: 5
+removed: 0
+delivered: 4
+delivery_prob: 4.0000
+response_prob: 0.0000
+overhead_ratio: 0.0000
+latency_avg: 1605.6250
+latency_med: 1624.5000
+hopcount_avg: 2.2500
+hopcount_med: 3
+buffertime_avg: 503.2000
+buffertime_med: 177.0000
+rtt_avg: NaN
+rtt_med: NaN

@@ -408,7 +408,11 @@ public class DecisionEngineRouter extends ActiveRouter
 		i.hasNext();)
 		{
 			Tuple<Message, Connection> t = i.next();
-			if(t.getKey().getId().equals(transferred.getId()) && 
+			if(transferred == null)
+			{
+				continue;
+			}
+			if(t.getKey().getId().equals(transferred.getId()) &&
 					t.getValue().equals(con))
 			{
 				i.remove();

@@ -211,7 +211,11 @@ public class DistributedBubbleRap
 		// DiBuBB allows a node to remove a message once it's forwarded it into the
 		// local community of the destination
 		DistributedBubbleRap de = this.getOtherDecisionEngine(otherHost);
-		return de.commumesWithHost(m.getTo()) && 
+		if(m == null)
+		{
+			return false;
+		}
+		return de.commumesWithHost(m.getTo()) &&
 			!this.commumesWithHost(m.getTo());
 	}
 
